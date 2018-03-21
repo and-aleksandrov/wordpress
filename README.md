@@ -8,6 +8,7 @@ Wordpress XSS exploit demo
     Reference: http://klikki.fi/adv/wordpress2.html
     Reference: http://packetstormsecurity.com/files/131644/
     Reference: https://www.exploit-db.com/exploits/36844/
+    
 [i] Fixed in: 4.2.1 
 
 Description: 

@@ -1,4 +1,4 @@
-# wordpress
+# Wordpress XSS exploit 
 Wordpress XSS exploit demo
 
 <img src="week7_xss_exploit.gif" width="800">

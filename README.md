@@ -26,3 +26,7 @@ Step by step:
 
 
 # Wordpress SQLI exploit 
+Wordpress SQLI exploit demo
+
+<img src="week7_sqli_exploit.gif" width="800">
+

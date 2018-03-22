@@ -1,5 +1,6 @@
 # Wordpress Exploit #1 
 Type: Unauthenticated Stored Cross-Site Scripting
+
 Wordpress exploit demo
 
 <img src="week7_xss_exploit.gif" width="800">
@@ -28,6 +29,7 @@ Step by step:
 
 # Wordpress exploit #2
 Type: Authenticated Stored Cross-Site Scripting Reference
+
 Wordpress exploit demo
 
 <img src="exploit2.gif" width="800">

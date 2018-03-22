@@ -44,6 +44,16 @@ Wordpress exploit demo
 [i] Fixed in: 4.2.3
 
 Description:
+XSS vulnarability allows a user with posting capabilities to compomise the web site
 
 Step by step:
+1. Press "Create a Post" button
+2. Switch from visual editor to text editor by choosing a "Text" tab on the righ upper corner.
+2. Enter example code that triggers alert message:
+```html
+<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
+```
+3. The code is executed when the user move his cursor over the link 
+
+
 

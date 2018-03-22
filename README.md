@@ -53,6 +53,10 @@ Step by step:
 ```html
 <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
 ```
+3. WordPress shortcode processing manipulates this into the following form
+```html
+<a href="</a><a title=" onmouseover=alert('test')  ">link</a>
+```
 3. The code is executed when the user move his cursor over the link 
 
 

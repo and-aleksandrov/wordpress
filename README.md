@@ -1,6 +1,6 @@
 # Wordpress Exploit #1 
-Type: XSS
-Wordpress XSS exploit demo
+Type: Unauthenticated Stored Cross-Site Scripting
+Wordpress exploit demo
 
 <img src="week7_xss_exploit.gif" width="800">
 
@@ -27,8 +27,8 @@ Step by step:
 
 
 # Wordpress exploit #2
-Type: XSS
-Wordpress SQLI exploit demo
+Type: Authenticated Stored Cross-Site Scripting Reference
+Wordpress exploit demo
 
 <img src="week7_sqli_exploit.gif" width="800">
 

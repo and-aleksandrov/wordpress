@@ -30,7 +30,7 @@ Step by step:
 Type: Authenticated Stored Cross-Site Scripting Reference
 Wordpress exploit demo
 
-<img src="week7_sqli_exploit.gif" width="800">
+<img src="exploit2.gif" width="800">
 
 [!] Title: WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
     Reference: https://wpvulndb.com/vulnerabilities/8111

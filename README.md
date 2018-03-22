@@ -66,12 +66,27 @@ Wordpress exploit demo
 
 <img src="exploit3.gif" width="800">
 
+[!] Title: WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/7979
+    Reference: https://codex.wordpress.org/Version_4.2.2
+[i] Fixed in: 4.2.2
+
 Description: Genericons packages included in the Twenty Fifteen theme had a vulnurable example.htnl file which provided oportunities for XSS attack
 
 Step by step:
-1. 
+1. Craft a web link by adding the code to existing example.html file in the Twentyfifteen theme:
 
 ```html
 http://wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#<img/src/onerror=alert("You_are_hacked!")>
 ```
+2. When logge in, copy the link to the browser and press Enter
+
+# Wordpress exploit #4
+Type: 
+
+Wordpress exploit demo
+
+<img src="exploit4.gif" width="800">
+
+
 

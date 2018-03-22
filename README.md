@@ -59,5 +59,11 @@ Step by step:
 ```
 3. The code is executed when the user move his cursor over the link 
 
+# Wordpress exploit #3
+Type:
+
+Wordpress exploit demo
+
+<img src="exploit2.gif" width="800">
 
 

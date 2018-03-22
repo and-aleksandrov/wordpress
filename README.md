@@ -1,4 +1,5 @@
-# Wordpress XSS exploit 
+# Wordpress Exploit #1 
+Type: XSS
 Wordpress XSS exploit demo
 
 <img src="week7_xss_exploit.gif" width="800">
@@ -25,8 +26,22 @@ Step by step:
 
 
 
-# Wordpress SQLI exploit 
+# Wordpress exploit #2
+Type: XSS
 Wordpress SQLI exploit demo
 
 <img src="week7_sqli_exploit.gif" width="800">
+
+[!] Title: WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8111
+    Reference: https://wordpress.org/news/2015/07/wordpress-4-2-3/
+    Reference: https://twitter.com/klikkioy/status/624264122570526720
+    Reference: https://klikki.fi/adv/wordpress3.html
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623
+[i] Fixed in: 4.2.3
+
+Description:
+
+Step by step:
 

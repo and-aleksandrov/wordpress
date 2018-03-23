@@ -1,7 +1,7 @@
 # Wordpress Exploit #1 
 <b>Type:</b> Unauthenticated Stored Cross-Site Scripting CVE-2015-3440
 
-Wordpress exploit demo
+<b>Wordpress exploit demo</b>
 
 <img src="week7_xss_exploit.gif" width="800">
 
@@ -11,14 +11,14 @@ Wordpress exploit demo
     Reference: http://packetstormsecurity.com/files/131644/
     Reference: https://www.exploit-db.com/exploits/36844/
 
-Tested in: 4.2
+<b>Tested in:</b> 4.2
 
-Fixed in: 4.2.1 
+<b>Fixed in:</b> 4.2.1 
 
-Description: 
+<b>Description: </b>
 Hacker can inject JavaScript in WordPress comments. The script is executed when comment is viewed. The comment has to be longer than 64 kb, because this is the maximum size of the text field in MySQL
 
-Step by step:
+<b>Step by step:</b>
 1. I left a harmless comment under the post to bypass the initial moderation. For the second comment of the same post you won't have to go through the moderation again.
 2. I left a long comment to get an alert "Hello World" :
 ```html
@@ -26,7 +26,7 @@ Step by step:
 ```
 3. When the admin will go to the page where the post is located the injected javascript will be executed and we can see the alert box "Hello world". The same way using different code we can gain access to cookies and to everything that logged in admin can do.
 
-Affected Source Code Link: https://core.trac.wordpress.org/changeset/32299
+<b> Affected Source Code Link:</b> https://core.trac.wordpress.org/changeset/32299
 
 
 

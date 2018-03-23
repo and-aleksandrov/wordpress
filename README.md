@@ -31,28 +31,28 @@ Hacker can inject JavaScript in WordPress comments. The script is executed when 
 
 
 # Wordpress exploit #2
-Type: Authenticated Stored Cross-Site Scripting Reference CVE-2015-5623
+<b>Type:</b> Authenticated Stored Cross-Site Scripting Reference CVE-2015-5623
 
-Wordpress exploit demo
+<b>Wordpress exploit demo</b>
 
 <img src="exploit2.gif" width="800">
 
 [!] Title: WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
-    Reference: https://wpvulndb.com/vulnerabilities/8111
-    Reference: https://wordpress.org/news/2015/07/wordpress-4-2-3/
-    Reference: https://twitter.com/klikkioy/status/624264122570526720
-    Reference: https://klikki.fi/adv/wordpress3.html
-    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622
-    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623
+    Reference: https://wpvulndb.com/vulnerabilities/8111 <br /> 
+    Reference: https://wordpress.org/news/2015/07/wordpress-4-2-3/ <br /> 
+    Reference: https://twitter.com/klikkioy/status/624264122570526720 <br /> 
+    Reference: https://klikki.fi/adv/wordpress3.html <br /> 
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622 <br /> 
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623 <br /> 
 
-Tested in: 4.2
+<b>Tested in:</b> 4.2
 
-Fixed in: 4.2.3
+<b>Fixed in:</b> 4.2.3
 
-Description:
+<b>Description:</b>
 XSS vulnarability allows a user with posting capabilities to compomise the web site
 
-Step by step:
+<b>Step by step:</b>
 1. Press "Create a Post" button
 2. Switch from visual editor to text editor by choosing a "Text" tab on the righ upper corner.
 2. Enter example code that triggers alert message:
@@ -65,26 +65,26 @@ Step by step:
 ```
 3. The code is executed when the user move his cursor over the link 
 
-Affected Source Code Link: https://core.trac.wordpress.org/changeset/33359
+<b>Affected Source Code Link:</b> https://core.trac.wordpress.org/changeset/33359
 
 # Wordpress exploit #3
-Type: Unauthenticated Genericons Cross-Site Scripting
+<b>Type:</b> Unauthenticated Genericons Cross-Site Scripting
 
-Wordpress exploit demo
+<b>Wordpress exploit demo</b>
 
 <img src="exploit3.gif" width="800">
 
 [!] Title: WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS)
-    Reference: https://wpvulndb.com/vulnerabilities/7979
-    Reference: https://codex.wordpress.org/Version_4.2.2
+    Reference: https://wpvulndb.com/vulnerabilities/7979 <br /> 
+    Reference: https://codex.wordpress.org/Version_4.2.2 <br /> 
 
-Tested in: 4.2
+<b>Tested in:</b> 4.2
 
-Fixed in: 4.2.2
+<b>Fixed in:</b> 4.2.2
 
-Description: Genericons packages included in the Twenty Fifteen theme had a vulnurable example.htnl file which provided oportunities for XSS attack
+<b>Description:</b> Genericons packages included in the Twenty Fifteen theme had a vulnurable example.htnl file which provided oportunities for XSS attack
 
-Step by step:
+<b>Step by step:</b>
 1. Craft a web link by adding the code to existing example.html file in the Twentyfifteen theme:
 
 ```html

@@ -63,7 +63,7 @@ XSS vulnarability allows a user with posting capabilities to compomise the web s
 ```html
 <a href="</a><a title=" onmouseover=alert('test')  ">link</a>
 ```
-3. The code is executed when the user move his cursor over the link 
+4. The code is executed when the user move his cursor over the link 
 
 <b>Affected Source Code Link:</b> https://core.trac.wordpress.org/changeset/33359
 
@@ -93,11 +93,36 @@ http://wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#<
 2. When logged in, copy the link to the browser and press Enter
 
 # Wordpress exploit #4
-Type: 
+<b>Type:</b> Authenticated Shortcode Tags Cross-Site Scripting CVE-2015-5714
 
-Wordpress exploit demo
+<b>Wordpress exploit demo</b>
 
 <img src="exploit4.gif" width="800">
 
+[!] Title: WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS) <br /> 
+    Reference: https://wpvulndb.com/vulnerabilities/8186 <br /> 
+    Reference: https://wordpress.org/news/2015/09/wordpress-4-3-1/ <br /> 
+    Reference: http://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/ <br /> 
+    Reference: http://blog.knownsec.com/2015/09/wordpress-vulnerability-analysis-cve-2015-5714-cve-2015-5715/ <br /> 
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5714 <br /> 
+
+<b>Tested in:</b> 4.2
+
+<b>Fixed in:</b> 4.2.5
+
+<b>Description:</b>
+Allows to inject web script or HTML by using unclosed HTML elements during processing of Shortcode tags.
+
+<b>Step by step:</b>
+1. Press "Create a Post" button
+2. Switch from visual editor to text editor by choosing a "Text" tab on the righ upper corner.
+2. Craft and enter example code that triggers alert message:
+```html
+XSS exploit [caption width='1' caption='<a href="' ">]</a><a href="http://onMouseOver='alert(123)' style='display:block;position:absolute;top:0px;left:0px;margin-left:-1000px;margin-top:-1000px;width:99999px;height:99999px;'"></a>
+```
+3. Change Visability to 'Private' by clicking 'Edit' in the right side menu bar and choosing 'Private' option
+4. Click 'View Post'. The code is executed when the user move his cursor over the link 
+
+<b>Affected Source Code Link:</b> https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8
 
 

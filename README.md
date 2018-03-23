@@ -5,11 +5,11 @@
 
 <img src="week7_xss_exploit.gif" width="800">
 
-[!] Title: WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS) <br>
-    Reference: https://wpvulndb.com/vulnerabilities/7945
-    Reference: http://klikki.fi/adv/wordpress2.html
-    Reference: http://packetstormsecurity.com/files/131644/
-    Reference: https://www.exploit-db.com/exploits/36844/
+[!] Title: WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS) <br /> 
+    Reference: https://wpvulndb.com/vulnerabilities/7945 <br /> 
+    Reference: http://klikki.fi/adv/wordpress2.html <br /> 
+    Reference: http://packetstormsecurity.com/files/131644/ <br /> 
+    Reference: https://www.exploit-db.com/exploits/36844/ <br /> 
 
 <b>Tested in:</b> 4.2
 

@@ -12,6 +12,7 @@ Wordpress exploit demo
     Reference: https://www.exploit-db.com/exploits/36844/
 
 Tested in: 4.2
+
 Fixed in: 4.2.1 
 
 Description: 
@@ -43,7 +44,9 @@ Wordpress exploit demo
     Reference: https://klikki.fi/adv/wordpress3.html
     Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622
     Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623
+
 Tested in: 4.2
+
 Fixed in: 4.2.3
 
 Description:
@@ -76,6 +79,7 @@ Wordpress exploit demo
     Reference: https://codex.wordpress.org/Version_4.2.2
 
 Tested in: 4.2
+
 Fixed in: 4.2.2
 
 Description: Genericons packages included in the Twenty Fifteen theme had a vulnurable example.htnl file which provided oportunities for XSS attack

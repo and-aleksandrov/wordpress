@@ -10,8 +10,9 @@ Wordpress exploit demo
     Reference: http://klikki.fi/adv/wordpress2.html
     Reference: http://packetstormsecurity.com/files/131644/
     Reference: https://www.exploit-db.com/exploits/36844/
-    
-[i] Fixed in: 4.2.1 
+
+Tested in: 4.2
+Fixed in: 4.2.1 
 
 Description: 
 Hacker can inject JavaScript in WordPress comments. The script is executed when comment is viewed. The comment has to be longer than 64 kb, because this is the maximum size of the text field in MySQL
@@ -29,7 +30,7 @@ Affected Source Code Link: https://core.trac.wordpress.org/changeset/32299
 
 
 # Wordpress exploit #2
-Type: Authenticated Stored Cross-Site Scripting Reference
+Type: Authenticated Stored Cross-Site Scripting Reference CVE-2015-5623
 
 Wordpress exploit demo
 
@@ -42,7 +43,8 @@ Wordpress exploit demo
     Reference: https://klikki.fi/adv/wordpress3.html
     Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622
     Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623
-[i] Fixed in: 4.2.3
+Tested in: 4.2
+Fixed in: 4.2.3
 
 Description:
 XSS vulnarability allows a user with posting capabilities to compomise the web site
@@ -60,6 +62,8 @@ Step by step:
 ```
 3. The code is executed when the user move his cursor over the link 
 
+Affected Source Code Link: https://core.trac.wordpress.org/changeset/33359
+
 # Wordpress exploit #3
 Type: Unauthenticated Genericons Cross-Site Scripting
 
@@ -70,7 +74,9 @@ Wordpress exploit demo
 [!] Title: WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS)
     Reference: https://wpvulndb.com/vulnerabilities/7979
     Reference: https://codex.wordpress.org/Version_4.2.2
-[i] Fixed in: 4.2.2
+
+Tested in: 4.2
+Fixed in: 4.2.2
 
 Description: Genericons packages included in the Twenty Fifteen theme had a vulnurable example.htnl file which provided oportunities for XSS attack
 

@@ -37,7 +37,7 @@ Hacker can inject JavaScript in WordPress comments. The script is executed when 
 
 <img src="exploit2.gif" width="800">
 
-[!] Title: WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+[!] Title: WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS) <br /> 
     Reference: https://wpvulndb.com/vulnerabilities/8111 <br /> 
     Reference: https://wordpress.org/news/2015/07/wordpress-4-2-3/ <br /> 
     Reference: https://twitter.com/klikkioy/status/624264122570526720 <br /> 

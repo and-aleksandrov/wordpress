@@ -24,6 +24,7 @@ Step by step:
 ```
 3. When the admin will go to the page where the post is located the injected javascript will be executed and we can see the alert box "Hello world". The same way using different code we can gain access to cookies and to everything that logged in admin can do.
 
+Affected Source Code Link: https://core.trac.wordpress.org/changeset/32299
 
 
 

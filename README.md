@@ -74,7 +74,7 @@ XSS vulnarability allows a user with posting capabilities to compomise the web s
 
 <img src="exploit3.gif" width="800">
 
-[!] Title: WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS)
+[!] Title: WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS) <br /> 
     Reference: https://wpvulndb.com/vulnerabilities/7979 <br /> 
     Reference: https://codex.wordpress.org/Version_4.2.2 <br /> 
 

